@@ -1,6 +1,18 @@
 #include <iostream>
 using namespace std;
 
+
+/*
+there is 5 operations in stack. 
+1.push
+2.pop
+3.top
+4.size
+5.isEmpty
+*/
+
+
+
 class Stack
 {
 public:
@@ -51,7 +63,7 @@ public:
     {
         cout << top + 1 << endl;
     }
-    
+
     void isEmpty()
     {
         if (top == -1)
